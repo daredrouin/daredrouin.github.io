@@ -4,9 +4,85 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Dare Drouin</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 2rem;
+        color: #222;
+        background-color: #f9f9f9;
+      }
+      header {
+        border-bottom: 2px solid #444;
+        margin-bottom: 2rem;
+        padding-bottom: 1rem;
+      }
+      header h1 {
+        margin: 0 0 0.25rem;
+      }
+      header p {
+        margin: 0;
+        color: #555;
+      }
+      section {
+        margin-bottom: 2.5rem;
+      }
+      section h2 {
+        border-left: 4px solid #0077cc;
+        padding-left: 0.6rem;
+        color: #0077cc;
+      }
+      .projects {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+        gap: 1.2rem;
+        margin-top: 1rem;
+      }
+      .project-card {
+        background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 6px;
+        padding: 1.2rem;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+      }
+      .project-card h3 {
+        margin: 0 0 0.5rem;
+        font-size: 1rem;
+      }
+      .project-card p {
+        margin: 0;
+        font-size: 0.9rem;
+        color: #555;
+      }
+    </style>
   </head>
   <body>
-    <h1>Hello!</h1>
-    <p>This is my homepage.</p>
+    <header>
+      <h1>Darien (Dare) Drouin</h1>
+      <p>Coding Projects Portfolio</p>
+    </header>
+
+    <section id="computational-chemistry">
+      <h2>Computational Chemistry</h2>
+      <p>Projects at the intersection of chemistry and computation.</p>
+      <div class="projects">
+        <div class="project-card">
+          <h3>Coming Soon</h3>
+          <p>Computational chemistry projects will be listed here.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="machine-learning">
+      <h2>Machine Learning</h2>
+      <p>Projects applying machine learning techniques.</p>
+      <div class="projects">
+        <div class="project-card">
+          <h3>Coming Soon</h3>
+          <p>Machine learning projects will be listed here.</p>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
