@@ -55,6 +55,20 @@
         font-size: 0.9rem;
         color: #555;
       }
+      .github-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        margin-top: 0.8rem;
+        font-size: 0.9rem;
+        color: #0077cc;
+        text-decoration: none;
+      }
+
+.github-link:hover {
+  text-decoration: underline;
+}
+
     </style>
   </head>
   <body>
@@ -101,7 +115,20 @@
       <div class="projects">
     
         <div class="project-card">
-          <h3>My Project Name</h3>
+          <h3>Artificial Neural Networks (ANNs)</h3>
+          <p>Base implementations and Framework implementations with Pytorch.</p>
+          <a class="github-link" href="https://github.com/daredrouin/YOUR-REPO-NAME"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="View My Project Name on GitHub">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+              <use href="#github-icon"/>
+            </svg>
+            View on GitHub
+          </a>
+        </div>
+
+        <div class="project-card">
+          <h3>Convolutional Neural Networks (CNNs)</h3>
           <p>Brief description of what this project does.</p>
           <a class="github-link" href="https://github.com/daredrouin/YOUR-REPO-NAME"
              target="_blank" rel="noopener noreferrer"
